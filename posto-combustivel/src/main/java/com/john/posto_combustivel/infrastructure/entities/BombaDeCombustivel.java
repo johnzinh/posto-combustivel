@@ -22,7 +22,7 @@ public class BombaDeCombustivel {
 
     @ManyToOne//relacao muitos pra um - varias bombas pra um mesmo tipo de combsutivel
     @JoinColumn(name = "combustivel_id")
-    private TiposCombustivel tiposCombustivel;
+    private TipoCombustivel tiposCombustivel;
 
 
 

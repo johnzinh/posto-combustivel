@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class TiposCombustivel {
+public class TipoCombustivel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) //gera automaticamnte os id
