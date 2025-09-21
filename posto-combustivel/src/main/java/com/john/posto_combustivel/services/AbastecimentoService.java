@@ -31,7 +31,7 @@ public class AbastecimentoService {
 
     }
 
-    public List<Abastecimento> buscarAbastecimento() {
+    public List<Abastecimento> buscarAbastecimentos() {
         return abastecimentoRepository.findAll();
     }
 
